@@ -1,0 +1,82 @@
+@keyframes relleno{
+    0% {fill: black; left: 0px; top: 0px;}
+    25% {fill: yellow; left: 50px; top: -50px}
+    50% {fill: hotpink; left: 100px; top: 0px;}
+    80% {fill: rgb(0,225,225); left: 150px; top: -50px;}
+    100% {fill: orange; left: 200px; top: 0px}
+}
+
+@keyframes rotacion{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes relleno-cora{
+    0% {fill: lightblue; stroke: blue; left: 0px; top: 0px;}
+    50% {fill: lightgreen; stroke: green; left: 0px; top: 150px;}
+    100% {fill: lightblue; stroke: blue; left: 0px; top: 0px;}
+}
+
+body{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #C4D2E7
+}
+
+.container{
+    height: 100vh;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+
+#miguelito{
+    width: 205px;
+    fill: black;
+    stroke:black;
+    stroke-width: 5px;
+    position: relative;
+    animation-name: relleno;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#miguelito .ojos
+{
+    fill: black;
+    stroke-width: 0px;
+}
+
+#B{
+    width: 150px;
+    fill: cornflowerblue;
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+#B:hover{
+    width: 300px;
+}
+
+#heart{
+    width: 250px;
+    fill: lightskyblue;
+    stroke: blue;
+    stroke-width: 1px;
+    position: relative;
+    animation: relleno-cora 3s linear .5s infinite forwards;
+    
+}
+
+#korean{
+    width: 250px;
+    fill:violet;
+    animation: rotacion 3s linear .5s infinite forwards;
+}
+
+.titulo{
+    font-size: 40px;
+    color: white;
+}

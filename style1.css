@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    color: black;
+    background-color:cadetblue;
+    margin: 0px;
+}
+
+
+.container{
+    margin: 0px auto;
+    width: 800px;
+    background-color: antiquewhite;
+}
+
+h1{
+    max-width: 750px;
+    margin: 30px auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: midnightblue;
+}
+
+h2{
+    margin: 20px auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    max-width: 20em;
+    line-height: 1.5;
+    color:blue;
+}
+
+footer{
+    margin: 0px auto;
+    max-width: 400px;
+    font-family: 'Quicksand' , sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+article p{
+    margin: 0px auto;
+    max-width: 700px;
+    text-align: left;
+    line-height: 1.7;
+    font-family: 'Quicksand' , sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
